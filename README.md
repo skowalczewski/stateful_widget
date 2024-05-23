@@ -1,16 +1,7 @@
 # stateful_widget
 
-A new Flutter project.
+A template to create apps involving *stateful widgets* (widgets that can change based on user interactions).
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Click on the green `Code` button at the top of the page, and copy the URL to this repository.  In your IDE you can now *clone* this starter code to get started with this task.
