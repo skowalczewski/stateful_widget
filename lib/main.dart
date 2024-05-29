@@ -33,9 +33,43 @@ class MyStatefulWidgetState extends State<MyStatefulWidget> {
     // anytime setState is called, the build method is called again
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.blue,
+        foregroundColor: Colors.white,
         title: Text('Stateful Widget'),
       ),
-      body: Text('Hello World!'),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              'Current Count:',
+              style: TextStyle(
+                fontSize: 20,
+              ),
+            ),
+            SizedBox(
+              height: 50,
+            ),
+            ElevatedButton(
+              onPressed: () {},
+              child: Text("Increase"),
+            ),
+            SizedBox(
+              height: 50,
+            ),
+            TextField(),
+            SizedBox(
+              height: 50,
+            ),
+            Text(
+              'Hello',
+              style: TextStyle(
+                fontSize: 20,
+              ),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
