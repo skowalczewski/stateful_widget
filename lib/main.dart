@@ -30,7 +30,6 @@ class MyStatefulWidgetState extends State<MyStatefulWidget> {
 
   @override
   Widget build(BuildContext context) {
-    // anytime setState is called, the build method is called again
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue,
